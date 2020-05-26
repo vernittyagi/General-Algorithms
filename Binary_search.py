@@ -11,9 +11,9 @@ def bSearch(num,target):
             return True
         else:
             if(num[mid]<target):
-                lower=mid
+                lower=mid+1
             else:
-                upper=mid
+                upper=mid-1
     return False
 num=[2,5,4,6,7,8,9]
 target = int(input())
